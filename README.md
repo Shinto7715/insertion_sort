@@ -34,7 +34,7 @@ You can do that one of the following ways:
 4. Input from an existing data set.
    ```
    for i in range(len(data_set)):
-      unsorted_list.insert(i, data_set)
+      unsorted_list.insert(i, data_set[i])
       i += 1
    ```
 You will also need a ```while``` loop for the actual sorting process.
